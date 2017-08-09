@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.nac.appreceiver">
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:icon="@mipmap/ic_launcher"
+                 android:supportsRtl="true"
+                 android:theme="@style/AppTheme">
+        <activity android:name=".MainAct">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <!--<receiver android:name=".CalcReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="com.nac.app.ACTION_PLUS"/>-->
+                <!--<action android:name="com.nac.app.ACTION_MINUS"/>-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+    </application>
+
+</manifest>
